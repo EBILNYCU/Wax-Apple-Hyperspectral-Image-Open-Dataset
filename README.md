@@ -69,7 +69,7 @@ In the coaxial heterogeneous HSI system, the VIS spectrometer has a spectral res
     <img src="https://hackmd.io/_uploads/S1VP5_2ap.png" width="400" height="150" style="float:left;margin:0 160px 12px" >
 </div>
 
-A total of six sets of spectral data were converted from hyperspectral data according to the to the **six bandwidths,$w$, of ± 2.5 nm, ± 5 nm, ± 7.5 nm, ± 10 nm, ± 12.5 nm, and ± 15 nm.**
+A total of six sets of spectral data were converted from hyperspectral data according to the to the **six bandwidths, W, of ± 2.5 nm, ± 5 nm, ± 7.5 nm, ± 10 nm, ± 12.5 nm, and ± 15 nm.**
 
 The code snippet to convert Hyperspectral image data to multispectral image data is shown below: 
 
