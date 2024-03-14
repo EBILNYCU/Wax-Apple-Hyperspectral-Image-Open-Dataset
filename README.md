@@ -59,8 +59,9 @@ In the coaxial heterogeneous HSI system, the VIS spectrometer has a spectral res
 
 **The hyperspectral data were converted to multispectral data, $R_M(x, y, λc)$ using following fomula:**
 
-
-![image](https://hackmd.io/_uploads/H14WgGiap.png)
+$$
+R_M\ (x,\ y,\lambda_c\ ) = {\frac{1}{\lambda_b-\lambda_a} [\sum_{i=a}^{b} R_{SGF}\ (x,y,\lambda_i\ )\times(\lambda_{i+1}-\lambda_i\ )\ ],[λ_a,λ_b ]∈[λ_c-\frac{w}{2},λ_c+\frac{w}{2}]}
+$$ 
 
 **where $R_M(x, y, λc)$ is the mean of the integrated intensity of the central band, $λc$; the central band $λc$ ranges from 400 to 1700 nm with an interval of bandwidth, $w$**. 
 
