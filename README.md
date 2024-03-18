@@ -2,20 +2,25 @@
 [DATASET-LINK]
 ## **Materials and Data preparation** 
 In the study, **136 wax apple samples** were collected from Meishan, Fengshan, Liouguei, and Jiadong. These samples then cut into slices **(1034 slices in total)** for HSIs data collection by the **coaxial heterogeneous HSI system** [1]. The raw hyperspectral image (HSI) is **three-dimensional data $(W, L, Λ)$**, where $W$ is image width, $L$ is image length, $Λ$ is the number of spectral bands, which has **1367 bands from 400 to 1700 nm**.<br>
+
 Each slice’s HSI were calibrated with spatial calibration, white/dark light calibration, and Savitzky-Golay Filtering, then each HSIs cube was randomly **cropped into size 20×20**. The **3-D cubes dataset** would be used to train **2D-CNN** models, for **FNN** model the 3-D datasets were averaged to **array-like datasets** by their width and length.<br>
+
 On the other hand, each wax apple slice was squeezed to extract juice sample, and the **ground truth Brix value (label)** was measured by a commercial refractometer **ATAGO PAL-1**.
 
-![image](https://hackmd.io/_uploads/SJawT1cpp.png )
+<div align="center">
+  <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/b248d165-aac0-4c17-ab69-3e12af70e584" width="780" height="720">
+</div>
 
 After the datasets were prepared, they were randomly sampled into **"training", "validation", and "test"** for modeling. The statistic info of each set is shown in below table. (we randomly discard some samples to make dataset balanced.)
 **Training set : 621 slices, validation set : 209 slices, test set : 204 slices.**
 
-![圖片5](https://hackmd.io/_uploads/r15PNx56T.png )
+<div align="center">
+  <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/f6222283-fc6b-4281-b3ca-dd254aa107e2" width="920" height="300">
+</div>
 
-
-<br>
 
 Below is the file structure and code snippet for loading HIS data samples and corresponding labels.
+
 ```
 ├── Hyper
 │   ├── 3d_data
@@ -65,9 +70,8 @@ $$
 
 **where $R_M(x, y, λc)$ is the mean of the integrated intensity of the central band, $λc$; the central band $λc$ ranges from 400 to 1700 nm with an interval of bandwidth, $w$**. 
 
-
-<div class="content">
-    <img src="https://hackmd.io/_uploads/S1VP5_2ap.png" width="400" height="150" style="float:left;margin:0 160px 12px" >
+<div class="content" align="center">
+    <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/098dbf99-02e1-4a75-9a9e-2311fd1a9b10" width="420" height="160" style="float:left;margin:0 120px 12px">
 </div>
 
 A total of six sets of spectral data were converted from hyperspectral data according to the to the **six bandwidths, W, of ± 2.5 nm, ± 5 nm, ± 7.5 nm, ± 10 nm, ± 12.5 nm, and ± 15 nm.**
