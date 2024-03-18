@@ -8,14 +8,14 @@ Each slice’s HSI were calibrated with spatial calibration, white/dark light ca
 On the other hand, each wax apple slice was squeezed to extract juice sample, and the **ground truth Brix value (label)** was measured by a commercial refractometer **ATAGO PAL-1**.
 
 <div align="center">
-  <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/b248d165-aac0-4c17-ab69-3e12af70e584" width="780" height="720">
+  <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/b248d165-aac0-4c17-ab69-3e12af70e584">
 </div>
 
 After the datasets were prepared, they were randomly sampled into **"training", "validation", and "test"** for modeling. The statistic info of each set is shown in below table. (we randomly discard some samples to make dataset balanced.)
 **Training set : 621 slices, validation set : 209 slices, test set : 204 slices.**
 
 <div align="center">
-  <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/f6222283-fc6b-4281-b3ca-dd254aa107e2" width="920" height="300">
+  <img src="https://github.com/EBILNYCU/Wax-Apple-Hyperspectral-Image-Open-Dataset/assets/163391078/f6222283-fc6b-4281-b3ca-dd254aa107e2">
 </div>
 
 
