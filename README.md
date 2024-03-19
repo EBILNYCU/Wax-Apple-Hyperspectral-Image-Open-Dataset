@@ -147,4 +147,7 @@ x_test_multi = hyper2multi(x_test, w, hyperband)
 3.Yung-Jhe Yan, Weng-Keong Wong, Chih-Jung Chen, Chi-Cho Huang, Jen‑Tzung Chien and Mang Ou-Yang*, “Hyperspectral signature-band extraction and learning: an example of sugar content prediction of Syzygium samarangense,”  Scientific Reports, 13:15100, 12 Sep. 2023. DOI: [10.1038/s41598-022-06679-6](https://doi.org/10.1038/s41598-023-41603-6)
 
 ### Acknowledgements
-This work is supported by grants from Agricultural Research Institute, Council of Agriculture, Executive of Yuan, ROC, and by the National Science and Technology Council, Taiwan , and National Yang Ming Chiao Tung University. This work contributed by following authors: Chih-Jung Chen, Yung-Jhe Yan, Weng-Keong Wong, Chih-Jung Chen, Chi-Cho Huang, Jen-Tzung Chien, Chang-Ting Chu, Je-Wei Jang, Tzung-Cheng Chen, Shiou-Gwo Lin, Ruei-Siang Shih and Mang Ou-Yang
+This work is supported by grants from Agricultural Research Institute, Council of Agriculture, Executive of Yuan, ROC, and by the National Science and Technology Council, Taiwan , and National Yang Ming Chiao Tung University. This work contributed by following authors: Chih-Jung Chen, Yung-Jhe Yan, Weng-Keong Wong, Chih-Jung Chen, Chi-Cho Huang, Jen-Tzung Chien, Chang-Ting Chu, Je-Wei Jang, Tzung-Cheng Chen, Shiou-Gwo Lin, Ruei-Siang Shih and Mang Ou-Yang.
+
+### Open data set download link:
+https://drive.google.com/drive/folders/12J3CuofxMXng8Nd6omLaFPB71twuBMPG?usp=drive_link
