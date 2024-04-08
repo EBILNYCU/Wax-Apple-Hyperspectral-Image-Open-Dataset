@@ -31,7 +31,7 @@ Below is the file structure and code snippet for loading HIS data samples and co
 │   │       ├── label_test.pkl
 │   │       ├── label_train.pkl
 │   │       └── label_val.pkl
-└─  └──
+└─  └── hyper_band_list_400-1700.pkl
 ```
 
 ```python=
